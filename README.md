@@ -1,1 +1,2 @@
-# publication25-spring
+# junior24-spring
+site for junior core

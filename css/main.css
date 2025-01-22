@@ -1,0 +1,148 @@
+/* basic styles */
+
+body {
+	margin: 0; 
+	box-sizing: border-box; 
+	background: #FFFDED;
+	overflow-x: hidden;
+	color: #373737; 
+}
+main {
+	width: 1000px;
+	margin: 50px auto;
+}
+footer {
+	margin-top: 50px;
+}
+hr {
+	border: none;
+	border-bottom: 2px solid #373737;
+}
+/* list styles */
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+section ul li, section ol li {
+	margin: 5px 0;
+}
+.arrow, .number {
+	padding: 0;
+}
+.number {
+	padding-left: 27px;
+}
+.arrow li:before {
+	content: "\2192";
+	margin-right: 5px;
+}
+
+/* type styles */
+
+body {
+	font-size: 24px;
+	font-family: "degular-variable", sans-serif;
+	font-variation-settings: "wght" 400, "opsz" 6, "ital" 0;
+}
+h1	{
+	font-size: 7.993em;
+	line-height: .8em;
+	font-family: "swear-display-cilati", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	margin: 0 0 75px;
+	padding: 0;
+}
+h2	{
+/*	font-size: 5.653rem;*/
+	font-size: 3.998em;
+	line-height: 1;
+	font-family: "swear-display", serif;
+	font-weight: 400;
+	font-style: normal;
+	margin: 30px 0 20px 0;
+	padding: 0;
+}
+h3	{
+/*	font-size: 3.998rem;*/
+	font-size: 1.414em;
+	font-family: "swear-display", serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin: 15px 0 0;
+	padding: 0;
+}
+h4	{
+	font-family: "swear-display-cilati", sans-serif;
+	font-size: 1em;
+	font-weight: 700;
+	font-style: normal;
+	margin: 15px 0 5px;
+}
+p, ul, ol, li	{
+	font-size: 1em;
+}
+p {
+	line-height: 1.3;
+	margin-top: 10px;
+}
+nav ul {
+	font-variation-settings: "wght" 800, "opsz" 6, "ital" 0;
+	text-transform: uppercase;
+	letter-spacing: .5px;
+}
+small, .small {
+	font-size: 0.707em;
+}
+strong {
+	font-variation-settings: "wght" 650;
+}
+
+/* link styles */
+a {
+	color: #FF7F51;
+}
+a:hover {
+	color: #9C528B;
+}
+
+@media only screen and (max-width: 1050px) {
+	main {
+		width: 600px;
+		margin: 50px auto;
+	}
+	.number {
+		padding-left: 22px;
+	}
+	body {
+		font-size: 16px;
+	}
+	.small {
+		font-size: .8em;
+	}
+}
+@media only screen and (max-width: 650px) {
+	main {
+		width: calc(100vw - 50px);
+		margin: 25px;
+	}
+	.number {
+		padding-left: 18px;
+	}
+	h1	{
+		font-size: 5.993em;
+	}
+	h2	{
+		font-size: 1.998em;
+		margin-bottom: 10px;
+	}
+	h3	{
+		font-size: 1.414em;
+	}
+	h4	{
+		font-size: 1em;
+	}
+}
