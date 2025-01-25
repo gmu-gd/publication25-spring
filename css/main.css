@@ -109,6 +109,48 @@ a:hover {
 	color: #9C528B;
 }
 
+/*list styles*/
+
+.temp-thanks h1, .temp-thanks h2 {
+  color: #373737;
+  text-align: center;
+}
+.temp-thanks h2 {
+  font-size: 1.5em;
+}
+#random-list {
+  padding-top: 50px;
+}
+#random-list a, #random-list a:visited, #random-list a:active {
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 3px solid #373737;
+  padding: 5px 10px 5px;
+  transition: .5s all ease;
+}
+#random-list a:hover {
+  cursor: pointer;
+  background-color: #373737;
+  color: #FFFDED;
+}
+#generate {
+  text-align: center;
+  margin: 25px 0;
+}
+#random-list ol {
+  margin: 0 auto;
+  padding: 0;
+  list-style-type: none;
+  width: 220px;
+}
+#random-list li {
+  font-size: 1.2em;
+  margin: 0;
+  padding: 5px 0;
+  float: none;
+}
 @media only screen and (max-width: 1050px) {
 	main {
 		width: 600px;
